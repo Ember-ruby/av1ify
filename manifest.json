@@ -15,7 +15,7 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "enhanced-h264ify",
+    "default_title": "av1ify",
     "default_popup": "options.html"
   },
   "content_scripts": [
@@ -24,6 +24,8 @@
         "*://*.youtube.com/*",
         "*://*.youtube-nocookie.com/*",
         "*://*.youtu.be/*"
+        "*://*.tbh.gay/*"
+        "*://*.localhost:8096/*"
       ],
       "js": [
         "src/inject/inject.js",
